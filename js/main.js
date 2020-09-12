@@ -40,7 +40,7 @@ function displayResults(weather)
     let weather_el = document.querySelector('.current .weather');
     weather_el.innerText = weather.weather[0].main;
 
-    let hi_low = document.querySelector(('.hi-low'));
+    let hi_low = document.querySelector('.hi-low');
     hi_low.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
 }
 
@@ -51,7 +51,7 @@ function dateBuilder(d)
     let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
     let day = days[d.getDay()];
-    let date = d.getDay();
+    let date = d.getDate();
     let month = months[d.getMonth()];
     let year = d.getFullYear();
 
