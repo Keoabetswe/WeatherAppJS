@@ -27,6 +27,7 @@ header
     justify-content: center;
     align-items: center;
     padding: 50px 15px 15px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 header input
@@ -44,11 +45,6 @@ header input
     font-size: 20px;
     font-weight: 300;
     transition:  0.2s ease-out;
-}
-
-header
-{
-    background-color: rgba(255, 255, 255, 0.6);
 }
 
 main
